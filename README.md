@@ -9,7 +9,7 @@ Supported controllers for program: Atmega 328p
 For reboot programmer send `reboot` from controller.
 For load another file send `load:filename.hex`
 
-Programmer  Controller
+Programmer <-> Controller
 
 D3 --------- SCK
 
@@ -19,7 +19,7 @@ D6 --------- MISO
 
 D7 --------- MOSI
 
-Programmer  SD        
+Programmer <-> SD        
 
 D4  ------- CS
 
@@ -29,7 +29,7 @@ D12 ------- MISO
 
 D13 ------- SCK
 
-Programmer  Buttons
+Programmer <- Buttons
 
 A0 -------- Up
 
@@ -38,3 +38,7 @@ A1 -------- Down
 A2 -------- Ok
 
 D8 -------- Cancel
+
+
+Projects: 
+Simple game console: https://easyeda.com/Forem/multi
