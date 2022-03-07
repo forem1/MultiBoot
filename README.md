@@ -1,6 +1,6 @@
 # MultiBoot
 
-## Simple arduino fimware programmer
+## Independent programmer for Atmega microcontrollers with firmware reading from SD card
 
 Save your .hex files on SDcard, select one in menu with the buttons Up and Down, then press Ok to program the controller.
 
@@ -41,4 +41,4 @@ D8 -------- Cancel
 
 
 Projects: 
-Simple game console: https://easyeda.com/Forem/multi
+Simple OLED game console: https://easyeda.com/Forem/multi
